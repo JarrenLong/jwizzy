@@ -1,0 +1,52 @@
+#include "main.h"
+#include <windows.h>
+#define IDC_STATIC -1
+
+MAIN MENU 
+{
+ POPUP "&File"
+ {
+  MENUITEM "&New\tCtrl+N", CM_FILE_NEW
+  MENUITEM "&Open...\tCtrl+O", CM_FILE_OPEN
+  MENUITEM "&Save\tCtrl+S", CM_FILE_SAVE, GRAYED
+  MENUITEM "Save &As...\tCtrl+A", CM_FILE_SAVEAS, GRAYED
+  MENUITEM SEPARATOR
+  MENUITEM "Print\tCtrl+P", CM_FILE_PRINT, GRAYED
+  MENUITEM SEPARATOR
+  MENUITEM "E&xit\tCtrl+Q", CM_FILE_EXIT
+ }
+
+ POPUP "&Edit", GRAYED
+ {
+  MENUITEM "&Undo\tCtrl+Z", CM_EDIT_UNDO
+  MENUITEM "&Redo\tCtrl+Y", CM_EDIT_REDO
+  MENUITEM SEPARATOR
+  MENUITEM "Cu&t\tCtrl+X", CM_EDIT_CUT
+  MENUITEM "&Copy\tCtrl+C", CM_EDIT_COPY
+  MENUITEM "&Paste\tCtrl+V", CM_EDIT_PASTE
+ }
+
+ POPUP "&Help", GRAYED
+ {
+  MENUITEM "&Help Topics\tCtrl+H", CM_HELP
+  MENUITEM "&About\tCtrl+O", CM_ABOUT
+  MENUITEM SEPARATOR
+  MENUITEM "&Links\tCtrl+L", CM_LINKS
+ }
+
+}
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 123, 60
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Digibox v1.4"
+FONT 10, "Uranium"
+BEGIN
+    DEFPUSHBUTTON   "Return To Program",IDOK,7,40,107,14
+    RTEXT           "Copyright (c) 2004 JincS\nCreated by Jarren Long\n",IDC_STATIC,14,14,100,15
+    ICON            "IDI_MAIN1",IDC_STATIC,7,14,48,48
+END
+
+IDI_CHILD  ICON DISCARDABLE  "icon2.ico"
+IDI_MAIN  ICON DISCARDABLE  "main.ico"
+IDI_MAIN1  ICON DISCARDABLE  "main.ico"

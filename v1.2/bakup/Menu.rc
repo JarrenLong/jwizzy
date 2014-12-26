@@ -1,0 +1,44 @@
+#include "Main.h"
+
+MAINMENU MENU 
+{
+ POPUP "&File"
+ {
+  MENUITEM "New    Ctrl+N", CM_FILE_NEW
+  MENUITEM "Open   Ctrl+O", CM_FILE_OPEN
+  MENUITEM "Save   Ctrl+S", CM_FILE_SAVE
+  MENUITEM "Save &As...", CM_FILE_SAVEAS
+  MENUITEM SEPARATOR
+  MENUITEM "Page Setup...", CM_FILE_PAGESETUP
+  MENUITEM "Print....", CM_FILE_PRINT
+  MENUITEM SEPARATOR
+  MENUITEM "E&xit", CM_FILE_EXIT
+ }
+ 
+
+ POPUP "&Edit"
+ {
+ MENUITEM "Undo     Ctrl+Z", CM_EDIT_UNDO
+ MENUITEM SEPARATOR 
+ MENUITEM "Cut       Ctrl+X", CM_EDIT_CUT
+ MENUITEM "Copy     Ctrl+C", CM_EDIT_COPY
+ MENUITEM "Paste    Ctrl+V", CM_EDIT_PASTE
+ MENUITEM "Delete   Del", CM_EDIT_DELETE
+ MENUITEM SEPARATOR
+ MENUITEM "Find      Ctrl+F", CM_EDIT_FIND
+ MENUITEM SEPARATOR
+ MENUITEM "Select All     Ctrl+A", CM_EDIT_SELECTALL
+ MENUITEM "Time/Date   F5", CM_EDIT_TIMEDATE
+ } 
+ 
+ POPUP "F&ormat"
+ {
+ MENUITEM "Fo&nt", CM_FONT
+ }
+ 
+ POPUP "&Help"
+ {
+ MENUITEM "&Help Topics", CM_HELP
+ MENUITEM "&About JincS...", CM_ABOUT
+ }
+}

@@ -1,0 +1,19 @@
+#define CM_FONT           9086
+#define CM_EDIT_TIMEDATE  9085
+#define CM_EDIT_SELECTALL 9084
+#define CM_EDIT_FIND      9083
+#define CM_EDIT_DELETE    9082
+#define CM_FILE_PRINT     9081
+#define CM_FILE_PAGESETUP 9080
+#define CM_FILE_SAVE      9079
+#define CM_HELP           9078
+#define CM_EDIT_PASTE     9077
+#define CM_EDIT_COPY      9076
+#define CM_EDIT_CUT       9075
+#define CM_EDIT_UNDO      9074
+#define CM_FILE_NEW       9073
+#define CM_FILE_SAVEAS	  9072
+#define CM_FILE_EXIT	  9071
+#define CM_FILE_OPEN	  9070
+#define CM_ABOUT          9069
+

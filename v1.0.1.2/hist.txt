@@ -1,0 +1,9 @@
+JincS WYSIWYG Editor Version History:
+
+
+
+v1.0.1.2:
+Added GNU license And basic help file.
+
+v1.0.1.1:
+First draft, just the .exe file.

@@ -1,0 +1,4 @@
+A special thanks goes to Joe's Software
+for the awesome VBScript Progress Meter!
+
+Visit jsware.net for all the cool VBScript stuff!

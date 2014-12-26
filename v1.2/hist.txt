@@ -1,0 +1,20 @@
+JincS WYSIWYG Editor Version History:
+
+v1.2:
+Changed the self-install tool into
+a more user-friendly process. Added
+additional menu items, but haven't
+implemented them yet. Updated help file.
+
+v1.1:
+Added self-install tool.
+
+v1.0.1.3:
+Cleaned up the open\save menus, a bunch.
+Updated the help file.
+
+v1.0.1.2:
+Added GNU license And basic help file.
+
+v1.0.1.1:
+First draft, just the .exe file.
